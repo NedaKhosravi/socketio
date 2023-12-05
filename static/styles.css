@@ -11,3 +11,16 @@ section.chat {
 section.alerts {
     grid-area: alerts;
 }
+
+.tab-row {
+    padding-top:20px;
+}
+
+
+.tab-btn{
+    cursor: pointer;
+}
+.tab-btn.active {
+    background: blue;
+    color: white
+}
